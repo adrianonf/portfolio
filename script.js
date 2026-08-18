@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if (entry.isIntersecting) {
                 // Adiciona a classe que ativa a transição CSS
                 entry.target.classList.add('visible');
-                // Deixa de observar após animar a primeira vez
+                // Deixa de observar após animar a primeira vez para não ficar repetindo
                 observer.unobserve(entry.target); 
             }
         });
