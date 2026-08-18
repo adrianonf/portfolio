@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Desenvolvedor Web & Mobile</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonte moderna e minimalista -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Dev<span>Tropical</span></div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Página 1: Início -->
+        <section id="inicio" class="page-section">
+            <div class="content animate-on-scroll">
+                <p class="greeting">Olá, eu sou</p>
+                <h1 class="name">[Seu Nome]</h1>
+                <h2 class="role">Desenvolvedor Web & Mobile</h2>
+                <p class="bio">
+                    Formado em Análise e Desenvolvimento de Sistemas. Meu objetivo profissional é unir lógica robusta e design intuitivo para criar interfaces modernas, com foco absoluto na experiência do usuário e na resiliência do sistema.
+                </p>
+                <a href="#projetos" class="btn-primary">Ver meus projetos</a>
+            </div>
+        </section>
+
+        <!-- Página 2: Sobre Mim -->
+        <section id="sobre" class="page-section">
+            <div class="content animate-on-scroll">
+                <h2 class="section-title">Sobre Mim</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>Sou um desenvolvedor apaixonado por resolver problemas reais através da tecnologia. Tenho forte interesse em arquitetura de software, engenharia de prompts e design de interfaces fáceis de usar.</p>
+                        <p><strong>Objetivo Acadêmico:</strong> Pós-graduação em Desenvolvimento para Dispositivos Móveis.</p>
+                    </div>
+                    <div class="skills">
+                        <h3>Tecnologias & Ferramentas</h3>
+                        <ul class="skill-list">
+                            <li>React & React Native</li>
+                            <li>Node.js & Express</li>
+                            <li>Tailwind CSS</li>
+                            <li>Bancos de Dados (Sequelize/ORMs)</li>
+                            <li>Linux & Otimização de Ambientes</li>
+                            <li>UI/UX Design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Página 3: Projetos -->
+        <section id="projetos" class="page-section">
+            <div class="content animate-on-scroll">
+                <h2 class="section-title">Projetos Pessoais</h2>
+                <div class="project-grid">
+                    <!-- Projeto 1 -->
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>API Resiliente com Graceful Shutdown</h3>
+                            <p>Implementação de lógica de reconexão de banco de dados e encerramento seguro (graceful shutdown) utilizando Node.js e Sequelize para garantir alta disponibilidade.</p>
+                            <div class="tags">
+                                <span>Node.js</span><span>Sequelize</span><span>Arquitetura</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Projeto 2 -->
+                    <div class="project-card">
+                        <div class="project-info">
+                            <h3>Componentes UI/UX Mobile-First</h3>
+                            <p>Desenvolvimento de uma biblioteca de componentes focada em hierarquia visual, usabilidade de touch-targets e design systems modernos.</p>
+                            <div class="tags">
+                                <span>React</span><span>Tailwind CSS</span><span>UI/UX</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Página 4: Contato -->
+        <section id="contato" class="page-section">
+            <div class="content animate-on-scroll">
+                <h2 class="section-title">Vamos conversar?</h2>
+                <p>Estou sempre aberto a novas oportunidades, colaborações e troca de ideias sobre tecnologia e design.</p>
+                <div class="contact-links">
+                    <a href="mailto:seuemail@exemplo.com" class="btn-secondary">Email</a>
+                    <a href="https://github.com/seugithub" target="_blank" class="btn-secondary">GitHub</a>
+                    <a href="https://linkedin.com/in/seulinkedin" target="_blank" class="btn-secondary">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
